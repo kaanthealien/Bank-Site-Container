@@ -19,13 +19,13 @@ Bu proje, bir banka uygulamasının temel özelliklerini barındıran bir web si
    ```bash
    git clone https://github.com/kaanthealien/Bank-site-container.git
    cd Bank-site-container
-2.Docker ve Docker Compose'un bilgisayarınızda kurulu olduğundan emin olun.
+2. Docker ve Docker Compose'un bilgisayarınızda kurulu olduğundan emin olun.
 
-3.Uygulamanın başlatılması için aşağıdaki komutu çalıştırın:
+3. Uygulamanın başlatılması için aşağıdaki komutu çalıştırın:
    ```bash
    docker-compose up --build
    ```
-4.Uygulama başarıyla başlatıldığında, tarayıcınızda http://localhost adresine giderek uygulamayı görüntüleyebilirsiniz. (Benim 8081 portum müsait olduğu için 8081 portunu kullandım fakat siz bunu kendinize göre konfigüre edebilirsiniz.)
+4. Uygulama başarıyla başlatıldığında, tarayıcınızda http://localhost adresine giderek uygulamayı görüntüleyebilirsiniz. (Benim 8081 portum müsait olduğu için 8081 portunu kullandım fakat siz bunu kendinize göre konfigüre edebilirsiniz.)
 
 ### Projenin Yapısı
 - docker-compose.yml: Docker Compose yapılandırma dosyası, tüm servislerin nasıl başlatılacağını belirtir.
